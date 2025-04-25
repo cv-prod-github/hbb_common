@@ -2285,6 +2285,7 @@ pub mod keys {
     pub const OPTION_ZOOM_CURSOR: &str = "zoom-cursor";
     pub const OPTION_SHOW_QUALITY_MONITOR: &str = "show_quality_monitor";
     pub const OPTION_DISABLE_AUDIO: &str = "disable_audio";
+    pub const OPTION_ENABLE_REMOTE_PRINTER: &str = "enable-remote-printer";
     pub const OPTION_ENABLE_FILE_COPY_PASTE: &str = "enable-file-copy-paste";
     pub const OPTION_DISABLE_CLIPBOARD: &str = "disable_clipboard";
     pub const OPTION_LOCK_AFTER_SESSION_END: &str = "lock_after_session_end";
@@ -2314,6 +2315,7 @@ pub mod keys {
     pub const OPTION_TEXTURE_RENDER: &str = "use-texture-render";
     pub const OPTION_ALLOW_D3D_RENDER: &str = "allow-d3d-render";
     pub const OPTION_ENABLE_CHECK_UPDATE: &str = "enable-check-update";
+    pub const OPTION_ALLOW_AUTO_UPDATE: &str = "allow-auto-update";
     pub const OPTION_SYNC_AB_WITH_RECENT_SESSIONS: &str = "sync-ab-with-recent-sessions";
     pub const OPTION_SYNC_AB_TAGS: &str = "sync-ab-tags";
     pub const OPTION_FILTER_AB_BY_INTERSECTION: &str = "filter-ab-by-intersection";
@@ -2385,6 +2387,10 @@ pub mod keys {
     pub const OPTION_FLUTTER_PEER_CARD_UI_TYLE: &str = "peer-card-ui-type";
     pub const OPTION_FLUTTER_CURRENT_AB_NAME: &str = "current-ab-name";
     pub const OPTION_ALLOW_REMOTE_CM_MODIFICATION: &str = "allow-remote-cm-modification";
+
+    pub const OPTION_PRINTER_INCOMING_JOB_ACTION: &str = "printer-incomming-job-action";
+    pub const OPTION_PRINTER_ALLOW_AUTO_PRINT: &str = "allow-printer-auto-print";
+    pub const OPTION_PRINTER_SELECTED_NAME: &str = "printer-selected-name";
 
     // android floating window options
     pub const OPTION_DISABLE_FLOATING_WINDOW: &str = "disable-floating-window";
@@ -2475,6 +2481,7 @@ pub mod keys {
         OPTION_ENABLE_CLIPBOARD,
         OPTION_ENABLE_FILE_TRANSFER,
         OPTION_ENABLE_CAMERA,
+        OPTION_ENABLE_REMOTE_PRINTER,
         OPTION_ENABLE_AUDIO,
         OPTION_ENABLE_TUNNEL,
         OPTION_ENABLE_REMOTE_RESTART,
